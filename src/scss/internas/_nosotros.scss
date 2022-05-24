@@ -1,0 +1,17 @@
+.seccion-nosotros {
+    @include tablet {
+        @include grid(2, 2rem);
+    }
+
+    .texto-nosotros {
+        h4{
+            text-align: center;
+        }
+       @include tablet{
+            h4 {
+                text-align: left;
+                margin: 0;
+            }
+       }
+    }
+}
